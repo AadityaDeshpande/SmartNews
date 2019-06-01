@@ -63,7 +63,7 @@ $.ajax({
        news($("#country").val(),$("#cat").val(),"",$("#search").val()) 
     })
     $(".less").click(function(){
-        $(this).children().toggle(200);
+        $(this).children().toggle("fast");
     })
     
     
@@ -85,11 +85,11 @@ function ah(a){
        document.getElementById("iframe").src="";
 		$("iframe").contents().empty();
        document.getElementById("iframe").src=a.href;
-       $("#popup").toggle(390);
+       $("#popup").toggle("fast");
        return false;
 }
 function h(a){
-    $(a).children().toggle(200);
+    $(a).children().toggle("fast");
 }
 
 
