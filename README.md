@@ -1,5 +1,5 @@
 # Smart News
-web application and Android app for fetching latest news from an API. 
+Web application and Android app for fetching latest news from an API. 
 
 ## Working Platform
  * For Android users
@@ -8,7 +8,7 @@ web application and Android app for fetching latest news from an API.
    * Can Browse app here [SmartNews](https://aadityadeshpande.github.io/SmartNews)
 ## App features
  * Latest trending news from worldwide.
- * Multiple countries news on same app.
+ * Multiple countries news on a __single app__.
  * Detailed view of news on single click.
  * Read international news in your native language.
  * Searching news based on keywords.
@@ -16,9 +16,14 @@ web application and Android app for fetching latest news from an API.
 
 ## Whats new?
  * Adjustable news font size making news reading super realiable.
- * Total 103 Languages available for translation of news.
- * Thousands of new themes available.
- * Total 136 News provides from all over the world.
+ * Total __103 Languages__ available for translation of news.
+ * Thousands of __new themes__ available.
+ * Total __136 News provides__ from all over the world.
+
+## Screenshots
+ ![](https://github.com/AadityaDeshpande/SmartNews/blob/master/screenshots/collage-2.jpg)
+
+
 
 ## Application Supported by
  * Powered by newsapi.org for News access.
