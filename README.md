@@ -31,6 +31,11 @@ Web application and Android app for fetching latest news from an API.
  * Designed with Bootstrap. 
  * Apache cordova framework for android app development.
 
+## Future Scope
+ * Share the news with friends and family.
+ * ability to zoom-in and zoom-out to read news.
+ * Geo-location based country selection.
+
 ## Contact Developer
  * Name: Aaditya Deshpande
  * Email: aadityadeshpande1998@gmail.com
