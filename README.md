@@ -3,9 +3,9 @@ Web application and Android app for fetching latest news from an API.
 
 ## Working Platform
  * For Android users
-   * Can Download App here [SmartNews.apk](SmartNews-debug.3062862.41.apk?raw=true)
+   * Can Download Android App here [SmartNews.apk](SmartNews-debug.3062862.41.apk?raw=true)
  * For IOS and Android users
-   * Can Browse app here [SmartNews](https://aadityadeshpande.github.io/SmartNews)
+   * Experiance complete Web-application [on browser](https://aadityadeshpande.github.io/SmartNews)
 
 ## App features
  * Latest trending news from worldwide.
