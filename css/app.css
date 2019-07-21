@@ -154,10 +154,10 @@ topbtn{
 /*.goog-te-banner #1.container{
 	visibility: hidden;
 }*/
-.goog-te-banner{
+/*.goog-te-banner{
 visibility: hidden !important;
 	display: none !important;
-}
+}*/
 
 #goog-gt-tt{
 	visibility: hidden !important;
