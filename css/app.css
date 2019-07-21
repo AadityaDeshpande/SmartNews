@@ -168,6 +168,10 @@ iframe[style]{ /* googles upper bar frame*/
 	display: none !important;*/
 	width: 100% !important;
 }
+#options{
+	visibility: hidden !important;
+	display: none !important;
+}
 .goog-te-combo{
 	/*padding-left: 5%;*/
 	margin-left: auto;
