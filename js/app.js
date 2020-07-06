@@ -32,7 +32,10 @@ function news(country,cat,publisher,q){
      }
 	}
 $.ajax({
-        url:"https://newsapi.org/v2/"+url+"&apiKey=2d8601bb938f4f328fd06ae694e07fa3",
+        type: "POST",
+        url: "https://smartnewsapi.herokuapp.com/getJSON",
+        contentType: 'application/json;charset=UTF-8',
+        data: JSON.stringify({'data':"https://newsapi.org/v2/top-headlines?country=in&category=&apiKey=2d8601bb938f4f328fd06ae694e07fa3"}),
         beforeSend: function(xhr) {
              xhr.setRequestHeader("Authorization", "Bearer ")
         }, success: function(data){
