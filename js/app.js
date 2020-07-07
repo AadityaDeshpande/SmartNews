@@ -51,7 +51,7 @@ $.ajax({
                 whatsAppMsg = window.encodeURIComponent(whatsAppMsg)
            $("#list").append(
                "<div class='zm'>\
-               <img class='thmb' src="+data['articles'][i]['urlToImage']+"><br>\
+               <img class='thmb' loading='lazy' src="+data['articles'][i]['urlToImage']+"><br>\
                <b><a href="+data['articles'][i]['url']+" onclick='ah(this);return false;'>"+data['articles'][i]['title']+"</a></b>\
                <br><small>by "+data['articles'][i]['author']+"<a href='https://api.whatsapp.com/send?text="+whatsAppMsg+"' data-action='share/whatsapp/share' target='_blank'><button type='button' class='btn btn-success' style='float: right;' >WhatsApp</button></a>\
                <br>"+data['articles'][i]['publishedAt']+"<br>\
