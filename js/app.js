@@ -46,7 +46,8 @@ $.ajax({
 			else{
             for(var i=0;i<data["articles"].length;i++)
 			{
-                var whatsAppMsg = data['articles'][i]['title']+"\r\n"+"link to news is  : "+"\r\n"+data['articles'][i]['url']+" \r\n[Sent via using SmartNews App] or Browse on below link \r\nhttps://aadityadeshpande.github.io/SmartNews/"
+                var whatsAppMsg = data['articles'][i]['title']+"\r\n"+"link to news is  : "+"\r\n"+data['articles'][i]['url']+"\r\n\r\n[Sent via using SmartNews App] or Browse on below link \r\nhttps://aadityadeshpande.github.io/SmartNews/"
+                whatsAppMsg = whatsAppMsg.replace("'","`")
                 whatsAppMsg = window.encodeURIComponent(whatsAppMsg)
            $("#list").append(
                "<div class='zm'>\
