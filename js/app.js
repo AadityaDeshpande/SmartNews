@@ -46,8 +46,17 @@ $.ajax({
 			else{
             for(var i=0;i<data["articles"].length;i++)
 			{
+                var whatsAppMsg = data['articles'][i]['title']+"\r\n"+"link to news is  : "+"\r\n"+data['articles'][i]['url']+" \r\n[Sent via using SmartNews App] or Browse on below link \r\nhttps://aadityadeshpande.github.io/SmartNews/"
+                whatsAppMsg = window.encodeURIComponent(whatsAppMsg)
            $("#list").append(
-			   "<div class='zm'><img class='thmb' src="+data['articles'][i]['urlToImage']+"><br><b><a href="+data['articles'][i]['url']+" onclick='ah(this);return false;'>"+data['articles'][i]['title']+"</a></b><br><small>by "+data['articles'][i]['author']+"<br>"+data['articles'][i]['publishedAt']+"<br></small><div class='less' onclick=h(this)><div class='content'>"+data['articles'][i]['content']+"<br></div><small>Read more..</small></div></div>"
+               "<div class='zm'>\
+               <img class='thmb' src="+data['articles'][i]['urlToImage']+"><br>\
+               <b><a href="+data['articles'][i]['url']+" onclick='ah(this);return false;'>"+data['articles'][i]['title']+"</a></b>\
+               <br><small>by "+data['articles'][i]['author']+"<a href='https://api.whatsapp.com/send?text="+whatsAppMsg+"' data-action='share/whatsapp/share' target='_blank'><button type='button' class='btn btn-success' style='float: right;' >WhatsApp</button></a>\
+               <br>"+data['articles'][i]['publishedAt']+"<br>\
+               </small><div class='less' onclick=h(this)><div class='content'>"+data['articles'][i]['content']+"<br>\
+               </div><small>Read more..</small></div></div>\
+               "
 		   )
         }}}
         
