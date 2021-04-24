@@ -79,6 +79,10 @@ a:hover{
     text-decoration: none;
 }
 
+a:hover{
+    color: #fff;
+}
+
 #popup {
     background-repeat:repeat-y;
     position:fixed;
