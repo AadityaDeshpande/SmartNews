@@ -47,7 +47,7 @@ $.ajax({
             for(var i=0;i<data["articles"].length;i++)
 			{
            $("#list").append(
-			   "<div class='zm'><img class='thmb' src="+data['articles'][i]['urlToImage']+"><br><b><a href="+data['articles'][i]['url']+" onclick='ah(this);return false;'>"+data['articles'][i]['title']+"</a></b><br><small>by "+data['articles'][i]['author']+"<br>"+data['articles'][i]['publishedAt']+"<br></small><div class='less' onclick=h(this)><div class='content'>"+data['articles'][i]['content']+"<br></div><small>Read more..</small></div></div>"
+			   "<div class='zm'><img class='thmb' src="+data['articles'][i]['urlToImage']+"><br><b><a href="+data['articles'][i]['url']+" target='_blank' onclick='ah(this);return false;'>"+data['articles'][i]['title']+"</a></b><br><small>by "+data['articles'][i]['author']+"<br>"+data['articles'][i]['publishedAt']+"<br></small><div class='less' onclick=h(this)><div class='content'>"+data['articles'][i]['content']+"<br></div><small>Read more..</small></div></div>"
 		   )
         }}}
         
@@ -74,7 +74,7 @@ $.ajax({
     
     
     $("iframe").on('load',function(){ 
-    	document.getElementById("ittl").innerHTML = document.getElementById("iframe").contentDocument.title; 
+    	//document.getElementById("ittl").innerHTML = document.getElementById("iframe").contentDocument.title; 
 	
 		 $("#cred_data").html("");
 		 

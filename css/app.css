@@ -72,7 +72,11 @@ small{
 }
 
 a{
-    color:#fff;
+    color:#fff !important;
+}
+
+a:hover{
+    text-decoration: none;
 }
 
 #popup {
@@ -164,8 +168,8 @@ visibility: hidden !important;
 	display: none !important;
 }
 iframe[style]{ /* googles upper bar frame*/
-	/*visibility: hidden !important;
-	display: none !important;*/
+	visibility: hidden !important;
+	display: none !important;
 	width: 100% !important;
 }
 #options{
