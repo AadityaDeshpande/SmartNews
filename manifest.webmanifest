@@ -1,0 +1,16 @@
+{
+    "background_color": "#2e6d4f",
+    "theme_color": "#2e6d4f",
+    "description": "Shows the news",
+    "display": "fullscreen",
+    "icons": [
+      {
+        "src": "icon/aaditya.jpg",
+        "sizes": "50x57",
+        "type": "image/jpg"
+      }
+    ],
+    "name": "Smart News",
+    "short_name": "Smart News",
+    "start_url": "https://aadityadeshpande.github.io/SmartNews/"
+  }
