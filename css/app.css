@@ -72,7 +72,11 @@ small{
 }
 
 a{
-    color:#fff;
+    color:#fff !important;
+}
+
+a:hover{
+    text-decoration: none;
 }
 
 a:hover{
@@ -158,18 +162,18 @@ topbtn{
 /*.goog-te-banner #1.container{
 	visibility: hidden;
 }*/
-/*.goog-te-banner{
+.goog-te-banner{
 visibility: hidden !important;
 	display: none !important;
-}*/
+}
 
 #goog-gt-tt{
 	visibility: hidden !important;
 	display: none !important;
 }
 iframe[style]{ /* googles upper bar frame*/
-	/*visibility: hidden !important;
-	display: none !important;*/
+	visibility: hidden !important;
+	display: none !important;
 	width: 100% !important;
 }
 #options{
