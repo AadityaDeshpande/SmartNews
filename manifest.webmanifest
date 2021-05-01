@@ -5,12 +5,12 @@
     "display": "fullscreen",
     "icons": [
       {
-        "src": "icon/aaditya.jpg",
-        "sizes": "50x57",
+        "src": "icon/NewsAppSqaureLogo.jpg",
+        "sizes": "740x740",
         "type": "image/jpg"
       }
     ],
     "name": "Smart News",
     "short_name": "Smart News",
-    "start_url": "https://aadityadeshpande.github.io/SmartNews/index.html"
+    "start_url": "/SmartNews/index.html"
   }
