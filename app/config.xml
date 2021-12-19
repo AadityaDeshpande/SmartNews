@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="io.cordova.hellocordova" version="1.1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.aaditya.smartnews" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Smart News</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
@@ -8,7 +8,6 @@
         Apache Cordova Team
     </author>
     <content src="index.html" />
-    <plugin name="cordova-plugin-whitelist" spec="1" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
@@ -27,5 +26,4 @@
 		<icon src= "icon/aaditya.jpg" platform="android" width="50" height="57" density="mdpi" />
 	</platform>
 	<plugin name="cordova-plugin-whitelist" spec="^1.3.2"/>
-	
 </widget>
