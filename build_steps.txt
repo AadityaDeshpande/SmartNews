@@ -1,0 +1,33 @@
+app folder is already a cordova project
+
+to add new version change the version field in
+app\config.xml
+app\package-lock.json
+app\package.json
+
+build steps are:
+
+cordova requirements
+cordova build --release android (this one fails)
+cordova build android (this is debug one)
+
+
+to resolve the issue:
+
+Requirements check results for android:
+Java JDK: installed 1.8.0
+Android SDK: installed true
+Android target: not installed
+Please install Android target / API level: "android-29".
+
+Hint: Open the SDK manager by running: "C:\Users\Aaditya\AppData\Local\Android\sdk\tools\android.BAT"
+You will require:
+1. "SDK Platform" for API level android-29
+2. "Android SDK Platform-tools (latest)
+3. "Android SDK Build-tools" (latest)
+
+
+Solution:
+C:\Users\Aaditya\AppData\Local\Android\Sdk\tools\bin>sdkmanager "platform-tools" "platforms;android-29"
+
+this will install the android 29 SDK with dependencies
